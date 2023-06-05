@@ -24,14 +24,10 @@ except:
 import math
 import logging
 
-import modified_resnet_cifar
-import modified_linear
-import utils_pytorch
 from utils_incremental.compute_features import compute_features
 from utils_incremental.incremental_train_and_eval_Graph import incremental_train_and_eval_Graph
 import copy
 import dataload
-import pdb
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "4,1,7,9"
 ######### Modifiable Settings ##########
