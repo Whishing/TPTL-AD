@@ -7,11 +7,9 @@ import torch
 
 sys.path.extend(['./', '../'])
 from torch.nn import functional as F
-from utils_pytorch import *
 from utils_incremental.compute_features import compute_features
-from utils_cifar.utils import gen_graph, save_graph, similarity_graph, k_nearest_neighbor
 import copy
-from utils_incremental.pearson_loss import pearson_loss, pearson_loss_withmask, ehg_pearson_loss
+from utils_incremental.pearson_loss import pearson_los
 from tqdm import tqdm
 
 cur_features = []
