@@ -5,7 +5,7 @@ Official code of "Topology-preserving transfer learning for weakly-supervised an
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-``` shell script
+``` 
 @article{wei2023topology,
   title={Topology-preserving transfer learning for weakly-supervised anomaly detection and segmentation},
   author={Wei, Shenxing and Wei, Xing and Kurniawan, Muhammad Rifki and Ma, Zhiheng and Gong, Yihong},
